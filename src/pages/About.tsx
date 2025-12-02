@@ -115,7 +115,7 @@ const hidrologia: Member[] = [
     description:
       "Especialista em modelagem hidrológica em contextos de mudanças climáticas e modelagem hidrodinâmica",
     initials: "DJ",
-    photo: "David.jpg",
+    photo: "David.jpeg",
   },
   {
     name: "Ernesto José Garcia Canellas",
@@ -128,7 +128,8 @@ const hidrologia: Member[] = [
     name: "Gabriela Modesto Azevedo",
     description:
       "Modelagem hidrológica com uso de redes neurais aplicada à bacia do Rio Negro, na Amazônia",
-    initials: "GA"
+    initials: "GA",
+    photo: "Gabriela.jpg"
   }
   ,{
     name: "Isabela Zini de Oliveira",
@@ -140,25 +141,29 @@ const hidrologia: Member[] = [
     name: "Júlia Camarano Lüdtke",
     description:
       "Estudos de extremos hidrológicos na bacia do Rio Madeira, com ênfase na ocorrência de secas",
-    initials: "JL"
+    initials: "JL",
+    photo: "Julia.jpg"
   }
   ,{
     name: "Lorena Grochowski Sabino dos Santos",
     description:
       "Iniciação científica na área de hidrogeologia.",
-    initials: "LS"
+    initials: "LS",
+    photo: "Lorena.jpg"
   }
   ,{
     name: "Marina Marcela de Paula Kolanski",
     description:
       "Formada em engenharia ambiental pela UFMG e especialista em estruturas hidráulicas. Atualmente é mestranda pelo programa SMARH da UFMG, com atuação focada em eventos extremos, modelagem hidrológica e teoria de redes complexas",
-    initials: "MK"
+    initials: "MK",
+    photo: "MarinaK.jpg"
   }
   ,{
     name: "Taís Fonte Boa de Campos Maia",
     description:
       "Engenheira ambiental formada pela UFMG, com especialização em estruturas hidráulicas. Mestranda pelo programa SMARH/UFMG, desenvolve pesquisa na interface entre hidrologia, eventos extremos e ciência de dados, com ênfase na aplicação de inteligência artificial e aprendizado de máquina para modelagem hidrológica, previsão de vazões e transferibilidade de modelos.",
-    initials: "TM"
+    initials: "TM",
+    photo: "Tais.jpg"
   }
 ];
 
@@ -169,6 +174,7 @@ const hidraulica: Member[] = [
     description:
       "Aluno de graduação de engenharia civil com iniciação científica em modelagem com uso de IA para sistemas e redes hidráulicas",
     initials: "CP",
+    photo:"Carlos.jpeg"
   },
   {
     name: "Daniel Bezerra Barros",
@@ -221,7 +227,8 @@ const hidraulica: Member[] = [
     name: "Filipe Augusto Resende Mota",
     description:
       "Pesquisa em transitório hidráulicos e detecção de vazamentos",
-    initials: "FM"
+    initials: "FM",
+    photo: "Felipe.jpeg"
   }
   ,{
     name: "Henrique Di Bernardo Dantas",
@@ -233,7 +240,8 @@ const hidraulica: Member[] = [
     name: "Jéssica Soares Pereira Gonçalves",
     description:
       "Aluna de graduação em Engenharia Ambiental com iniciação científica em hidráulica de sistemas de abastecimento de água.",
-    initials: "JG"
+    initials: "JG",
+    photo: "Jessica.jpeg"
   }
   ,{
     name: "Leandro Alves Evangelista",
@@ -263,7 +271,8 @@ const hidraulica: Member[] = [
     name: "Thomaz Felipe de Freitas Anchieta",
     description:
       "Otimização e modelagem matemático-computacional de redes de distribuição de água",
-    initials: "TA"
+    initials: "TA",
+    photo: "Thomaz.jpeg"
   }
 ];
 
