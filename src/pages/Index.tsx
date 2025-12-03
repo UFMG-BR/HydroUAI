@@ -39,7 +39,7 @@ const Index = () => {
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
-            <Button size="lg" variant="outline" asChild className="border-white text-white hover:bg-white hover:text-primary">
+            <Button size="lg" asChild className="bg-white text-primary hover:bg-white/90 shadow-lg">
               <Link to="/publications">
                 <BookOpen className="mr-2 h-5 w-5" />
                 {t('home.hero.publications')}
