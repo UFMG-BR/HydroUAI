@@ -6,6 +6,28 @@ import { Link } from "react-router-dom";
 
 const Projects = () => {
   const gustavoProjects = [
+     {
+      title: "Elaboração de diagnóstico dos sistemas produtores e das redes de distribuição",
+      period: "2025-Atual",
+      funding: "Itabira",
+      role: "Coordenador",
+      status: "Em andamento"
+     },
+     {
+      title: "Análise de dados para localização de vazamentos e setorização em redes de distribuição de água",
+      period: "2025-Atual",
+      funding: "Stattus4",
+      role: "Coordenador",
+      status: "Em andamento"
+     },
+     {
+      title: "Assessing the potential of QPF Nowcasts for Machine Learning-based 
+Flood Forecasting",
+      period: "2025-Atual",
+      funding: "Deltares",
+      role: "Coordenador",
+      status: "Em andamento"
+    },
     {
       title: "Recuperação de Energia em Sistemas de Drenagem Urbana",
       period: "2025-Atual",
