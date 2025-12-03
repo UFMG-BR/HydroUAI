@@ -22,7 +22,7 @@ export default function Home() {
           </Link>
           <Link
             to="/publications"
-            className="inline-flex items-center gap-2 rounded-md px-6 py-3 bg-white text-primary font-medium shadow hover:shadow-md"
+              className="inline-flex items-center gap-2 rounded-md px-6 py-3 bg-white !text-primary !opacity-100 font-medium shadow hover:shadow-md"
           >
             Publicações
           </Link>
