@@ -6,6 +6,7 @@ export const translations = {
       projects: "Projetos",
       publications: "Publicações",
       downloads: "Downloads",
+      events: "Eventos",
       partners: "Parceiros",
       contact: "Fale Conosco"
     },
@@ -141,6 +142,7 @@ export const translations = {
       projects: "Projects",
       publications: "Publications",
       downloads: "Downloads",
+      events: "Events",
       partners: "Partners",
       contact: "Contact Us"
     },
