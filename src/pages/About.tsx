@@ -108,6 +108,7 @@ const hidrologia: Member[] = [
     description:
       "Aluna de graduação em Engenharia Ambiental com iniciação cientifica em caracterização e modelagem de eventos de seca.",
     initials: "BN",
+    photo: "Beatriz.jpeg",
   },
   {
     name: "Bibiana Niederauer Soares",
@@ -135,12 +136,14 @@ const hidrologia: Member[] = [
     description:
       "Doutorando em recursos hídricos, com atuação profissional no setor de mineração em modelagem hidrológica e hidrodinâmica, e pesquisa acadêmica direcionada à aplicação de inteligência artificial em modelagem hidrológica.",
     initials: "ES",
+    photo: "Erickson.jpeg",
   },
   {
     name: "Gabriel Rodrigues Pereira",
     description:
       "Modelagem hidrológica de eventos extremos, previsão de vazões e estudo de Soluções Baseadas na Natureza (SBNs) ",
     initials: "GP",
+    photo: "Gabriel.jpeg",
   },
   {
     name: "Gabriela Modesto Azevedo",
@@ -167,6 +170,7 @@ const hidrologia: Member[] = [
     description:
       "Aluna de graduação em Engenharia Civil com iniciação cientifica na área de hidrologia e estudo de Soluções Baseadas na Natureza (SBNs) para aplicação na Bacia do Capão.",
     initials: "LC",
+    photo: "Lorena.jpeg"
   }
   ,{
     name: "Lorena Grochowski Sabino dos Santos",
@@ -187,6 +191,8 @@ const hidrologia: Member[] = [
     description:
       "Modelagem hidrológica com redes neurais artificiais, previsão de inundações, inteligência artificial explicável.",
     initials: "PS",
+    photo: "Solha.jpg"
+
   }
   ,{
     name: "Taís Fonte Boa de Campos Maia",
@@ -223,6 +229,8 @@ const hidraulica: Member[] = [
     description:
       "Aluna de graduação em engenharia civil, com especialização em Engenharia Urbana pela EIVP, iniciação cientifica  na utilização de Soluções Baseadas na Natureza (SBNs) para aplicação na Bacia do Capão.",
     initials: "GF",
+    photo: "Gabriela.jpeg",
+
   },
   {
     name: "Jordana Madeira Alaggio Ribeiro",
@@ -283,7 +291,8 @@ const hidraulica: Member[] = [
     name: "Leandro Alves Evangelista",
     description:
       "Modelagem hidráulica e otimização de sistemas de abastecimento de água",
-    initials: "LE"
+    initials: "LE",
+    photo: "Leandro.jpg"
   }
   ,{
     name: "Pedro Orsini Cotta",
@@ -295,7 +304,8 @@ const hidraulica: Member[] = [
     name: "Ruan Almeida Rocha Cosmo",
     description:
       "Previsão de Demanda para Otimização de Sistemas de Abastecimento de Água. Engenheiro Civil formado pela UFC. Mestrando em Recursos Hídricos (Departamento de Engenharia Hidráulica e Ambiental - DEHA/UFC).",
-    initials: "RC"
+    initials: "RC",
+    photo: "Ruan.jpeg"
   }
   ,{
     name: "Rui Gabriel Modesto de Souza",
@@ -307,7 +317,9 @@ const hidraulica: Member[] = [
     name: "Thiago Henrique da Silva Lima",
     description:
       "Estudante de Engenharia Civil. Desenvolvendo pesquisa de Iniciação Científica na aplicação de Inteligência Artificial e Machine Learning para a previsão de inundações e gestão de riscos hídricos.",
-    initials: "TL"
+    initials: "TL",
+    photo: "Tiago.jpg"
+
   }
   ,{
     name: "Thomaz Felipe de Freitas Anchieta",
@@ -321,6 +333,8 @@ const hidraulica: Member[] = [
     description:
       "Aluna de graduação em Engenharia Ambiental com atuação em pesquisas sobre modelos hidrológicos voltados à estimativa de erosão e deposição de sedimentos em bacias hidrográficas.",
     initials: "VO",
+    photo: "Victoria.jpeg"
+
   }
 ];
 
