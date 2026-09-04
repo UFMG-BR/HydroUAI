@@ -12,7 +12,7 @@
           var r = sessionStorage.getItem("redirect");
           if (r) {
             sessionStorage.removeItem("redirect");
-            var u = new URL(r, location.origin);
+            var u = new URL(r, location.href);
             history.replaceState(null, "", u);
           }
         } catch (e) {}
