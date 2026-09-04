@@ -16,6 +16,7 @@ import Contact from "./pages/Contact";
 import Partners from "./pages/Partners";
 import NotFound from "./pages/NotFound";
 import Events from "./pages/Events";   // ✔ ADICIONADO
+import Scholarships from "./pages/Scholarships";
 
 const queryClient = new QueryClient();
 
@@ -37,6 +38,7 @@ const App = () => (
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/publications" element={<Publications />} />
                 <Route path="/events" element={<Events />} />     {/* ✔ NOVA ROTA */}
+                <Route path="/bolsas" element={<Scholarships />} />
                 <Route path="/partners" element={<Partners />} />
                 <Route path="/contact" element={<Contact />} />
 
@@ -54,4 +56,3 @@ const App = () => (
 );
 
 export default App;
-
