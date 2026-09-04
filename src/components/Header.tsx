@@ -18,6 +18,7 @@ const Header = () => {
     { name: t("nav.projects"), href: "/projects" },
     { name: t("nav.publications"), href: "/publications" },
     { name: t("nav.events"), href: "/events" },      // ← NOVO ITEM
+    { name: t("nav.scholarships"), href: "/bolsas" },
     { name: t("nav.partners"), href: "/partners" },
     { name: t("nav.contact"), href: "/contact" },
   ];
@@ -47,8 +48,8 @@ const Header = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-6">
-            <div className="flex items-baseline space-x-8">
+          <div className="hidden lg:flex items-center gap-4">
+            <div className="flex items-baseline space-x-2">
               {navigation.map((item) => (
                 <Link
                   key={item.name}
@@ -67,7 +68,7 @@ const Header = () => {
           </div>
 
           {/* Mobile menu button */}
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <Button
               variant="ghost"
               size="sm"
@@ -85,7 +86,7 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 border-t border-border mt-4">
               {navigation.map((item) => (
                 <Link
